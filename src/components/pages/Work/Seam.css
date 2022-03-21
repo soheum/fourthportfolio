@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    /* background-color: #FFFFFF; */
+    padding: 0;
+    font-family: 'Abhaya Libre', serif;
+  }
+
+  p {
+    font-size: 100px;
+  }
+
+  /* first part */
+  .seam_bg{
+    background-color: #E8E8E8;
+    overflow: hidden !important ;
+  }
+  .seam_bg2{
+    background-color: #D0E9E4;
+    overflow: hidden !important ;
+  }
+  .question{
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Kumbh Sans", sans-serif;
+    color: #4a4c3e;
+    font-size: 35px;
+    letter-spacing: -1.5px;
+    line-height: 1.2;
+    text-align: left;
+  }
+  .emphasize_seam2{
+    font-weight: 800;
+  font-style: italic;
+  font-family: "Tinos", serif;
+  color: #EF5A57;
+  font-size: 35px;
+  letter-spacing: -1.5px;
+  line-height: 1.2;
+  }
+  .emphasize_seam{
+    font-weight: 800;
+  font-style: italic;
+  font-family: "Tinos", serif;
+  color: #339CA1;
+  font-size: 35px;
+  letter-spacing: -1.5px;
+  line-height: 1.2;
+  }
+  .container_question_seam{
+    background-color: #E8E8E8;
+    margin-bottom: 3%;
+  }
+  #seam_question{
+    background-color: #E8E8E8;
+    overflow: hidden !important ;
+  }
+
+  /* video */
+  .player-wrapper{
+    position: relative;
+    padding-top: 43%;
+
+  }
+  .react-player{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  /* key component */
+  .container_semititle{
+    padding-top: 5%;
+    padding-bottom: 3%;
+  }
+  .container_keycomponent{
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 3%;
+  }
+  .keycomponent_2{
+    flex: 1 1 33%;
+    margin-right: 2%;
+  }
+  .content_title{
+    font-weight: 400;
+  font-style: normal;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #232820;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-align: left;
+  }
+  .content_text{
+    font-weight: 200;
+  font-style: normal;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #232820;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  line-height: 1.5;
+  }
+  .content_text_bd{
+    font-weight: 400;
+  font-style: normal;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #232820;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  line-height: 1.5;
+  }
+
+  /* how it works */
+  .container_how{
+    display: flex;
+    padding-top: 0%;
+    padding-bottom: 3%;
+  }
+  .how_1{
+    flex: 1 1 33%;
+    margin-right: 2%;
+  }
+  .how_2_left{
+    flex: 1 1 40%;
+  }
+  .how_2_right{
+    flex: 1 1 60%;
+  }
+  #how{
+    padding-top: 5%;
+    /* align-items: center; */
+  }
+
+  /* secondpart */
+  .seam_bg3{
+    background-color: #D0E9E4;
+    overflow: hidden !important ;
+  }
+  .discover_interview{
+    flex: 1 1 80%;
+  }
+  .discover_interview_rt{
+    flex: 1 1 20%;
+  }
+  .question_title_seam{
+    font-weight: 400;
+  font-style: normal;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #1B1E1A;
+  font-size: 24px;
+  letter-spacing: -0.7px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  }
+  .question_title_red{
+    font-weight: 400;
+  font-style: normal;
+  font-family: "Kumbh Sans", sans-serif;
+    color: #DE5971;
+    font-size: 24px;
+  letter-spacing: -0.25px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  }
+  .question_title_green{
+    font-weight: 400;
+  font-style: normal;
+  font-family: "Kumbh Sans", sans-serif;
+    color: #2C6B62;
+    font-size: 24px;
+  letter-spacing: -0.25px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  }
+  .center_align{
+    text-align: center;
+    background-color: #E8E8E8;
+    overflow: hidden !important ;
+    padding-top: 3%;
+    padding-bottom: 4%;
+  }
+  .seam_bg2{
+    background-color: #D0E9E4;
+    overflow: hidden !important ;
+  }
+  .col_50_right{
+    flex: 1 1 50%;
+    padding-right: 1%;
+  }
+  .col_50_left{
+    flex: 1 1 50%;
+    padding-left: 1%;
+  }
+  .seam_principles{
+    font-weight: 300;
+    font-style: normal;
+    font-family: "Kumbh Sans", sans-serif;
+    color: #326258;
+    font-size: 28px;
+    letter-spacing: -0.6px;
+    line-height: 1.5;
+  }
+  .seam_principles_bold{
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Kumbh Sans", sans-serif;
+    color: #326258;
+    font-size: 28px;
+    letter-spacing: -0.6px;
+    line-height: 1.5;
+  }
+  .container_principles{
+      padding-top: 2%;
+      padding-bottom: 3%;
+  }
+
+  /* third part */
+  

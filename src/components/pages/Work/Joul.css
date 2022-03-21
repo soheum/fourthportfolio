@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    /* background-color: #FFFFFF; */
+    padding: 0;
+    font-family: 'Abhaya Libre', serif;
+  }
+  
+  .primary{
+      color: #538A2E;
+  }
+  p {
+    font-size: 100px;
+  }
+
+  /* first part */
+  .joul_bg{
+    background-color: #FEF4F3;
+    overflow: hidden !important ;
+  }
+  .question{
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Kumbh Sans", sans-serif;
+    color: #4a4c3e;
+    font-size: 35px;
+    letter-spacing: -1.5px;
+    line-height: 1.2;
+    text-align: left;
+  }
+  .emphasize{
+    font-weight: 700;
+  font-style: italic;
+  font-family: "Tinos", serif;
+  color: #e59680;
+  font-size: 35px;
+  letter-spacing: -1.5px;
+  line-height: 1.2;
+  }
+  .container_question{
+    background-color: #FEF4F3;
+    margin-bottom: 3%;
+  }
+  #joul_question{
+    background-color: #FEF4F3;
+  }
+  .joul_img{
+    max-width: 100%;
+  }
+
+  /* video */
+  .player-wrapper{
+    position: relative;
+    padding-top: 43%;
+
+  }
+  .react-player{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  /* key component */
+  .container_semititle{
+    padding-top: 5%;
+    padding-bottom: 3%;
+  }
+  .container_keycomponent{
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 3%;
+  }
+  .keycomponent_1{
+    flex: 1 1 25%;
+    margin-right: 2%;
+  }
+  .content_title{
+    font-weight: 400;
+  font-style: normal;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #232820;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-align: left;
+  }
+  .content_text{
+    font-weight: 200;
+  font-style: normal;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #232820;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  line-height: 1.5;
+  }
+  .content_text_bd{
+    font-weight: 400;
+  font-style: normal;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #232820;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  line-height: 1.5;
+  }
+
+  /* how it works */
+  .container_how{
+    display: flex;
+    padding-top: 0%;
+    padding-bottom: 3%;
+  }
+  .how_1{
+    flex: 1 1 33%;
+    margin-right: 2%;
+  }
+  .how_2_left{
+    flex: 1 1 40%;
+  }
+  .how_2_right{
+    flex: 1 1 60%;
+  }
+  #how{
+    padding-top: 5%;
+    /* align-items: center; */
+  }
+
+  /* secondpart */
+  .joul_bg2{
+    background-color: #E6E1DD;
+    overflow: hidden !important ;
+  }
+  .emphasize2{
+    font-weight: 700;
+  font-style: italic;
+  font-family: "Tinos", serif;
+  color: #7A9F6F;
+  font-size: 35px;
+  letter-spacing: -1.5px;
+  line-height: 1.2;
+  }
+  .emphasize3{
+    font-weight: 700;
+    font-style: italic;
+    font-family: "Tinos", serif;
+    color: #6F5F52;
+    font-size: 35px;
+  letter-spacing: -1.5px;
+  line-height: 1.2;
+  }
+  .discover_interview{
+    flex: 1 1 80%;
+  }
+  .discover_interview_rt{
+    flex: 1 1 20%;
+  }
+  .question_title{
+    font-weight: 400;
+  font-style: normal;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #3c5d32;
+  font-size: 24px;
+  letter-spacing: -0.7px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  }
+  .question_title2{
+    color: #181411;
+    font-weight: 400;
+  font-style: normal;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 24px;
+  letter-spacing: -0.7px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  }
+  .interview_result{
+    flex: 1 1 50%;
+    margin-right: 2%;
+  }
+  .joul_int_img{
+    max-width: 40%;
+  }
+
+  /* third part */
+  .container_develop{
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 0%;
+  }
+  .container_develop_btm{
+    display: flex;
+    padding-bottom: 2%;
+    padding-top: 2%;;
+  }
+  .emphasize3{
+    font-weight: 700;
+  font-style: italic;
+  font-family: "Tinos", serif;
+  color: #232820;
+  font-size: 35px;
+  letter-spacing: -1.5px;
+  line-height: 1.2;
+  }
+  .develop_left{
+    flex: 1 1 80%;
+  }
+  .develop_right{
+    flex: 1 1 20%;
+  }
+  .develop_video{
+    flex: 1 1 33%;
+    margin-right: 2%;
+  }
+  /* deliver */
+  .container_deliver{
+    padding-top: 2%;
+    padding-bottom: 0%;
+  }
+  .joul_bg3{
+    background-color: #ECF0EB;
+    overflow: hidden !important ;
+  }
+  .deliver_1{
+    flex: 1 1 33%;
+    margin-right: 2%;
+  }

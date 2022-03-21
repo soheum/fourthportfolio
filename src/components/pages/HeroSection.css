@@ -1,0 +1,55 @@
+.container {
+    z-index: 1;
+    width: 100%;
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 1%;
+  }
+
+  h1{
+    width: auto; /* 492px */
+    height: auto; /* 82px */
+    overflow: visible;
+    text-align: left;
+    white-space: pre;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Abhaya Libre", serif;
+    color: #2C2A2A;
+    font-size: 69px;
+    letter-spacing: -1.6px;
+    line-height: 1.2;
+  }
+
+  h2{
+    width: auto; /* 573px */
+    height: auto; /* 45px */
+    text-align: left;
+    overflow: visible;
+    white-space: pre;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Tinos", serif;
+    color: #2C2A2A;
+    font-size: 38px;
+    letter-spacing: -0.6px;
+    line-height: 1;
+  }
+  .header{
+    display: flex;
+  }
+  .empty{
+   flex: 1 1 32%; 
+  }
+  .fill{
+    flex: 1 1 68%;
+  }
+
+  
+
+  @media screen and (max-width: 960px) {
+    
+  }

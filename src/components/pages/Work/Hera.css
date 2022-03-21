@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    /* background-color: #FFFFFF; */
+    padding: 0;
+    font-family: 'Abhaya Libre', serif;
+  }
+  
+  .primary{
+      color: #538A2E;
+  }
+  p {
+    font-size: 100px;
+  }
+
+  /* first part */
+  .hera_bg{
+    background-color: #0E0E0E;
+    overflow: hidden !important ;
+  }
+
+  .joul_img{
+    max-width: 100%;
+  }
+
+  /* video */
+  .player-wrapper{
+    position: relative;
+    padding-top: 43%;
+
+  }
+  .react-player{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  /* key component */
+  .container_semititle{
+    padding-top: 5%;
+    padding-bottom: 3%;
+  }
+  .container_keycomponent{
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 3%;
+  }
+  .emphasize_hera{
+    font-weight: 800;
+  font-style: italic;
+  font-family: "Tinos", serif;
+  color: #1B1E1A;
+  font-size: 35px;
+  letter-spacing: -1.5px;
+  line-height: 1.2;
+  }
+  .question_title_hera{
+    font-weight: 400;
+  font-style: normal;
+  font-family: "Kumbh Sans", sans-serif;
+  color:  #1B1E1A;;
+  font-size: 24px;
+  letter-spacing: -0.7px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  }
+  .content_text_hera{
+    font-weight: 200;
+  font-style: normal;
+  font-family: "Kumbh Sans", sans-serif;
+  color:  #1B1E1A;;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  line-height: 1.5;
+  }
+
+
+  .keycomponent_1{
+    flex: 1 1 25%;
+    margin-right: 2%;
+  }
+  .content_title{
+    font-weight: 400;
+  font-style: normal;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #232820;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-align: left;
+  }
+
+  .content_text_bd{
+    font-weight: 400;
+  font-style: normal;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #232820;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  line-height: 1.5;
+  }
+
+  /* #rougeholic_white{
+    padding-right: -50px;
+    padding-left: -50px;
+  } */

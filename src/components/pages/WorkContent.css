@@ -1,0 +1,129 @@
+.container {
+    z-index: 1;
+    width: 100%;
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 1%;
+  }
+
+  .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3%;
+  }
+  
+  .data{
+      margin-top: 5%;
+  }
+  .content_down{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+  }
+
+  .emptycontent{
+      flex: 1 1 20%;
+  }
+  .worklist{
+    display: flex;
+    margin-top: 1%;
+  }
+  .work1 {
+    flex: 1 1 32%;
+    white-space: pre-line;
+    cursor: pointer;
+  }
+  .work2{
+    flex: 1 1  34%;
+    cursor: pointer;
+  }
+  .work3{
+    flex: 1 1 34%;
+    
+  }
+  .semi_title_work{
+    margin-top: 5%;
+  }
+  .work_img{
+    width: 95%;
+    margin-top: 3%;
+    transition: all 0.3s ease;
+  }
+  .work_img:hover{
+    width: 96%;
+    cursor: pointer;
+  }
+  .work_img_2{
+    width: 89%;
+    margin-top: 3%;
+    margin-left: 4%;
+    transition: all 0.3s ease;
+  }
+  .work_img_2:hover{
+    width: 90%;
+    cursor: pointer;
+  }
+  .work_img_3{
+    width: 89%;
+    margin-top: 3%;
+    transition: all 0.3s ease;
+  }
+  .work_img_3:hover{
+    width: 90%;
+    cursor: pointer;
+  }
+  .footer{
+      height: 100px;
+  }
+  .span_title{
+    overflow: hidden;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Kumbh Sans", sans-serif;
+    color: #232820;
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: left;
+  }
+  .span_title:hover{
+      font-weight: 500;
+  }
+  .span_title_2{
+    margin-left: 3%;
+  }
+
+  .span_exp{
+    overflow: hidden;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    font-weight: 200;
+    font-style: normal;
+    font-family: "Kumbh Sans", sans-serif;
+    color: #2C2A2A;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+    line-height: 1.3;
+  }
+
+  .nav-link {
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .nav-link:hover {
+    color: #DBF32B;
+    /* transform: scale(1.2);
+    transition: all 0.3s ease; */
+  }
