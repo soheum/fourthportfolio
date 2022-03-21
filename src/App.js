@@ -1,7 +1,7 @@
 import './App.css';
 import './font.css';
 import Navbar from './components/pages/Navbar';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route, Link } from 'react-router-dom';
 import Home from './components/pages/HomePage/Home';
 import Work from './components/pages/HomePage/Work';
 import Joul from './components/pages/Work/Joul';
@@ -13,13 +13,12 @@ import Data from './components/pages/Work/Data';
 import Dhm from './components/pages/Work/Dhm';
 import Trapeza from './components/pages/Work/Trapeza';
 import Qcells from './components/pages/Work/Qcells';
-import {Helmet} from 'react-helmet';
 
 function App() { 
   
   return (
 
-    <HashRouter basename='/'>
+    <HashRouter basename="/" hashType="noslash">
 
       <Navbar />
       <Switch>
