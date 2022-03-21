@@ -23,7 +23,7 @@ function App() {
 
       <Navbar />
       <Switch>
-        <Route path="/" exact component ={Home}/>
+        <Route path="/Newportfolio" exact component ={Home}/>
         <Route path="/work" component = {Work}/>
         <Route path="/joul" component = {Joul}/>
         <Route path="/seam" component = {Seam}/>
