@@ -1,7 +1,7 @@
 import './App.css';
 import './font.css';
 import Navbar from './components/pages/Navbar';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/pages/HomePage/Home';
 import Work from './components/pages/HomePage/Work';
 import Joul from './components/pages/Work/Joul';
@@ -19,11 +19,11 @@ function App() {
   
   return (
 
-    <Router>
+    <HashRouter basename='/'>
 
       <Navbar />
       <Switch>
-        <Route path="/Newportfolio" exact component ={Home}/>
+        <Route path="/" exact component ={Home}/>
         <Route path="/work" component = {Work}/>
         <Route path="/joul" component = {Joul}/>
         <Route path="/seam" component = {Seam}/>
@@ -36,7 +36,7 @@ function App() {
         <Route path="/qcells" component = {Qcells}/>
 
       </Switch>
-    </Router>
+     </HashRouter>
 
       );
 }
