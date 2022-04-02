@@ -1,7 +1,7 @@
 import './App.css';
 import './font.css';
 import Navbar from './components/pages/Navbar';
-import { HashRouter, Switch, Route, Link } from 'react-router-dom';
+import { Switch, Route} from 'react-router-dom';
 import Home from './components/pages/HomePage/Home';
 import Work from './components/pages/HomePage/Work';
 import Joul from './components/pages/Work/Joul';
@@ -17,12 +17,10 @@ import Qcells from './components/pages/Work/Qcells';
 function App() { 
   
   return (
-
-    <HashRouter basename="/" hashType="noslash">
-
+    <div>
       <Navbar />
+
       <Switch>
-        <Route path="/" exact component ={Home}/>
         <Route path="/work" component = {Work}/>
         <Route path="/joul" component = {Joul}/>
         <Route path="/seam" component = {Seam}/>
@@ -33,9 +31,11 @@ function App() {
         <Route path="/dhm" component = {Dhm}/>
         <Route path="/trapeza" component = {Trapeza}/>
         <Route path="/qcells" component = {Qcells}/>
+        <Route path="/" exact component ={Home}/>
 
       </Switch>
-     </HashRouter>
+      </div>
+
 
       );
 }
